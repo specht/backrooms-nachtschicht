@@ -1,0 +1,74 @@
+# Hinter dem Hörsaal: die Heizung. Sie läuft, obwohl es niemand warm haben will.
+
+[room]
+name = Heizkeller
+height = 3.4
+walls = brick
+wallpaper = #8a4b37
+floor = concrete
+carpet = #615e58
+ceiling = #4b4744
+baseboard = none
+
+[map]
+#############
+1...........#
+1..R...H....#
+#.....KKK...#
+#..R..KKK.F.#
+#.....KKK...#
+#..R........#
+#........BB.#
+#PPPPPPPPPPP#
+#..A...T....#
+###22########
+
+[K]
+block = 2.4, 2.3, 2.4    # der Kessel
+shape = round
+material = plain
+color = #3f5a4c
+
+[R]
+block = 0.16, 3.4, 0.16  # ein Rohr vom Boden bis an die Decke
+shape = round
+material = plain
+color = #8b8378
+
+[P]
+block = 1, 0.22, 0.22    # Rohre unter der Decke, Feld für Feld
+base = 2.9
+offset = 0, 0, -0.3
+material = plain
+color = #7c746a
+
+[H]
+model = nachtschicht/models/caged_hanging_light/caged_hanging_light_1k.gltf   # Poly Haven, CC0
+height = 0.75
+offset = 0, 2.65, 0
+light = #ff6a3a
+power = 2.4
+flicker = 1
+
+[F]
+light = #ff4a2a          # das Feuer im Kessel, durch die Klappe
+size = 0.5
+power = 1.4
+flicker = 1
+
+[A]
+light = #ffb070
+size = 0.6
+power = 1.2
+
+[B]
+model = nachtschicht/models/Barrel_01/Barrel_01_1k.gltf   # Poly Haven, CC0
+height = 0.88
+
+[T]
+model = nachtschicht/models/metal_tool_chest/metal_tool_chest_1k.gltf   # Poly Haven, CC0
+height = 0.65
+offset = 0, 0, 0.25
+
+[2]
+door = spiegelsaal 1

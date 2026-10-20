@@ -1,0 +1,32 @@
+# Flucht 2 von 5: Räume hintereinander, Tür hinter Tür.
+
+[room]
+name = Flucht 2
+height = 3.2
+wallpaper = #a9b6c2
+floor = carpet_tiles
+carpet = #424e5c
+dado = 0.9, #3a2c22
+dado_material = wood
+cornice = 0.12, #ddd6c6
+
+[map]
+#######
+#.....#
+1.....2
+1..L..2
+#.....#
+#######
+
+[L]
+light = #ffe9c4
+power = 1.0
+flicker = 0
+
+[1]
+door = flucht1 2
+arch = 2.6
+casing = on
+
+[2]
+door = flucht3 1

@@ -1,0 +1,83 @@
+# Ein Hörsaal. Die Reihen fallen zur Tafel hin ab, auf der Tafel steht nichts.
+
+[room]
+name = Hörsaal
+height = 6
+walls = wood
+wallpaper = #9a7652
+floor = wood
+carpet = #6b4c33
+cornice = 0.14, #d8cfbc
+
+[map]
+#####11#######
+#QQQQQQQQQQQQ#
+#aaaaaSSaaaaa#
+#bbbbbSSbbbbb#
+#cccccSSccccc#
+#.....SS.....2
+#............2
+#.L........L.#
+#.....P......#
+#.....G......#
+##############
+
+[Q]
+raise = 2.4              # oben, an der Tür
+material = wood
+color = #5e4430
+railing = on
+
+[R]
+raise = 1.8
+material = wood
+color = #5e4430
+
+[T]
+raise = 1.2
+material = wood
+color = #5e4430
+
+[U]
+raise = 0.6
+material = wood
+color = #5e4430
+
+[S]
+stairs = north, 2.4      # der Gang zwischen den Reihen, vom Pult bis oben
+material = wood
+color = #4e3826
+
+[a]
+model = models/SchoolChair_01/SchoolChair_01_1k.gltf   # Poly Haven, CC0
+height = 1.01
+on = R
+
+[b]
+model = models/SchoolChair_01/SchoolChair_01_1k.gltf   # Poly Haven, CC0
+height = 1.01
+on = T
+
+[c]
+model = models/SchoolChair_01/SchoolChair_01_1k.gltf   # Poly Haven, CC0
+height = 1.01
+on = U
+
+[P]
+block = 0.8, 1.1, 0.5    # das Pult
+material = wood
+color = #4a3424
+
+[G]
+block = 4, 1.4, 0.06     # die Tafel
+base = 0.9
+offset = 0, 0, 0.45
+color = #233328
+
+[L]
+light = #fff0d6
+size = 1.2
+power = 2.8
+
+[2]
+door = heizkeller 1

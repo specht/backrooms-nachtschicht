@@ -1,0 +1,49 @@
+# Ein Archiv aus Beton. Regale bis unter die Decke, Kartons, und eine einzige Lampe.
+
+[room]
+name = Archiv
+height = 3.4
+walls = concrete
+wallpaper = #8f8f8a
+floor = concrete
+carpet = #6e6e6a
+ceiling = #8a8a85
+
+[map]
+#####11#######
+#K...........#
+#.SSSSS.SSSS.#
+#......K.....#
+#.SSSSS.SSSS.#
+#....M.......#
+#.SSSSS.SSSS.#
+#..K......J..#
+#.SSSSS.SSSS.#
+#.J..........#
+#####33#######
+
+[S]
+model = nachtschicht/models/steel_frame_shelves_02/steel_frame_shelves_02_1k.gltf   # Poly Haven, CC0
+height = 2.1
+
+[K]
+block = 0.7, 0.5, 0.6
+material = cardboard
+color = #a9814f
+rotation = 7
+
+[J]
+block = 0.55, 0.42, 0.5
+material = cardboard
+color = #9c7648
+rotation = -11
+
+[M]
+model = nachtschicht/models/caged_hanging_light/caged_hanging_light_1k.gltf   # Poly Haven, CC0
+height = 0.75
+offset = 0, 2.6, 0       # hängt von der Decke
+light = #ffe2b0
+power = 1.4
+
+[3]
+door = hoersaal 1, -2.4  # dahinter 2,4 m tiefer: Man kommt oben im Hörsaal heraus, auf der letzten Reihe

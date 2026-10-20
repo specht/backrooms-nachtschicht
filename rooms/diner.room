@@ -1,0 +1,53 @@
+# Ein Diner. Die Kasse steht offen, der Kaffee ist noch warm.
+
+[room]
+name = Diner
+height = 3
+walls = tiles
+wallpaper = #ece6da
+floor = checker
+carpet = #e8e2d6
+ceiling = #efe9e0
+dado = 1.1, #a3242c
+dado_material = tiles
+dado_rail = 0.05, #d9d9d9
+
+[map]
+##11###########
+#.............#
+#..CCCCCCK....#
+#..BBBBBB.....#
+#.............#
+#.T.....T.....#
+#.............#
+#.....T.....T.2
+#.............2
+#.L.....L.....#
+###############
+
+[C]
+block = 1, 1.05, 0.7    # der Tresen, Feld für Feld
+material = plain
+color = #c8cbd0
+
+[K]
+model = nachtschicht/models/CashRegister_01/CashRegister_01_1k.gltf   # Poly Haven, CC0
+height = 0.4
+offset = -1, 1.05, 0     # auf dem Tresen
+rotation = 180
+
+[B]
+model = nachtschicht/models/bar_chair_round_01/bar_chair_round_01_1k.gltf   # Poly Haven, CC0
+height = 0.75
+
+[T]
+model = nachtschicht/models/round_wooden_table_01/round_wooden_table_01_1k.gltf   # Poly Haven, CC0
+height = 0.76
+
+[L]
+light = #ff9ad0         # rosa, wie Neon
+size = 1.4, 0.3
+power = 1.2
+
+[2]
+door = ballsaal 1

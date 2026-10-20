@@ -1,0 +1,56 @@
+# Ein Ballsaal. Die Musik hat aufgehört, die Gäste sind aus Marmor.
+
+[room]
+name = Ballsaal
+height = 6
+walls = wallpaper
+wallpaper = #2f5a44
+floor = parquet
+carpet = #7a5434
+ceiling = #e9e1cc
+dado = 1.0, #4a3020
+dado_material = wood
+dado_rail = 0.06, #c9a64a
+cornice = 0.25, #e8dcc0
+
+[map]
+#################
+1...............#
+1...............#
+#.B...........H.#
+#...............#
+#.....C.....C...#
+#...............#
+#.B..........M..#
+#...............#
+#.....C.....C...#
+#...............#
+#.B...........B.#
+#################
+
+[C]
+model = nachtschicht/models/Chandelier_02/Chandelier_02_1k.gltf   # Poly Haven, CC0
+height = 1.2
+offset = 0.5, 4.6, 0.5
+light = #ffdca8
+power = 2.8
+
+[B]
+model = nachtschicht/models/marble_bust_01/marble_bust_01_1k.gltf   # Poly Haven, CC0
+height = 0.6
+rotation = 90
+pedestal = 0.5, 1.2, 0.5
+pedestal_material = marble
+
+[H]
+model = nachtschicht/models/horse_statue_01/horse_statue_01_1k.gltf   # Poly Haven, CC0
+height = 0.7
+rotation = 250
+pedestal = 0.9, 1.1, 0.6
+pedestal_material = marble
+
+[M]
+model = nachtschicht/models/ornate_mirror_01/ornate_mirror_01_1k.gltf   # Poly Haven, CC0
+height = 2.2
+rotation = 270
+offset = 0.45, 0.9, 0   # an der Ostwand

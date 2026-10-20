@@ -1,0 +1,61 @@
+# Ein Wartezimmer aus den Siebzigern. Die Uhr läuft, aber niemand wird aufgerufen.
+
+[room]
+name = Wartezimmer
+height = 2.7
+walls = plain
+wallpaper = #c7d2bf
+floor = terrazzo
+carpet = #d6ccb8
+dado = 1.2, #7f9c89
+dado_rail = 0.04, #e6e2d4
+look = 80
+
+[map]
+##############
+#P....U......#
+#.....L......#
+#.CCCC..CCCC.#
+#............1
+#.DDDD..DDDD.1
+#........L...#
+#..TTT.......#
+#..BL@.......#
+##############
+
+[L]
+light = #eef4ff
+size = 1.4, 0.3          # eine Röhre
+power = 1.6
+
+[C]
+model = nachtschicht/models/GreenChair_01/GreenChair_01_1k.gltf   # Poly Haven, CC0
+height = 0.95
+rotation = 180
+
+[D]
+model = nachtschicht/models/GreenChair_01/GreenChair_01_1k.gltf   # Poly Haven, CC0
+height = 0.95
+
+[P]
+model = nachtschicht/models/potted_plant_02/potted_plant_02_1k.gltf   # Poly Haven, CC0
+height = 1.1
+
+[U]
+model = nachtschicht/models/wall_clock/wall_clock_1k.gltf   # Poly Haven, CC0
+height = 0.34
+offset = 0, 2.05, -0.47   # an die Nordwand
+
+[T]
+block = 1, 1.05, 0.6     # der Tresen
+material = wood
+color = #8a6a48
+
+[B]
+model = nachtschicht/models/classic_laptop/classic_laptop_1k.gltf   # Poly Haven, CC0
+height = 0.3
+rotation = 180
+offset = 0, 1.05, -1.0   # auf dem Tresen
+
+[1]
+door = flucht1 1

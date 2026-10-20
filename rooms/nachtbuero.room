@@ -1,0 +1,68 @@
+# Ein Großraumbüro bei Nacht. Die Leuchten an der Decke sind aus, nur auf den
+# Schreibtischen brennt noch Licht. Hinten summen die Server.
+
+[room]
+name = Nachtbüro
+height = 2.8
+walls = plain
+wallpaper = #7b8087
+floor = carpet_tiles
+carpet = #3b434f
+ceiling = #b8b8b2
+
+[map]
+################
+#.............R#
+1...A....A....R#
+1...DB...DB...R#
+#...H....H....E#
+#..............#
+#...A....A.....#
+#...DB...DB....#
+#...H....H.....#
+#..............#
+#...A....A.....#
+#...DB...DB....#
+#...H....H.....#
+#..............#
+#######22#######
+
+[D]
+model = models/metal_office_desk/metal_office_desk_1k.gltf   # Poly Haven, CC0
+height = 0.76
+
+[A]
+model = nachtschicht/models/desk_lamp_arm_01/desk_lamp_arm_01_1k.gltf   # Poly Haven, CC0
+height = 0.55
+offset = 0, 0.76, 0.6    # hinten auf dem Schreibtisch
+light = #ffd39a
+power = 1.2
+beam = 70                # unter dem Schirm: nach unten
+
+[B]
+model = nachtschicht/models/classic_laptop/classic_laptop_1k.gltf   # Poly Haven, CC0
+height = 0.24
+offset = -0.45, 0.76, 0  # auf dem Schreibtisch
+
+[H]
+model = models/SchoolChair_01/SchoolChair_01_1k.gltf   # Poly Haven, CC0
+height = 1.01
+rotation = 180           # zum Schreibtisch
+
+[R]
+model = models/worn_metal_rack/worn_metal_rack_1k.gltf   # Poly Haven, CC0
+height = 1.9
+rotation = 270
+offset = 0.2, 0, 0       # an die Ostwand
+
+[E]
+light = #5aa8ff          # das Licht der Server
+size = 0.4
+power = 0.9
+flicker = 1
+
+[1]
+door = flucht5 2
+
+[2]
+door = archiv 1

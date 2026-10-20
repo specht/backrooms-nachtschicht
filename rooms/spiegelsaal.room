@@ -1,0 +1,57 @@
+# Das Hallenbad, nachts. Alle Röhren brennen, aber niemand schwimmt.
+# Das Wasser steht dunkel zwischen den gekachelten Säulen und bewegt sich doch.
+
+[room]
+name = Nachtbad
+height = 5
+walls = tiles
+wallpaper = #e6eeec
+floor = tiles
+carpet = #d3dcda
+ceiling = #dfe5e3
+baseboard = none
+
+[map]
+#######11#######
+#WWWWWW..WWWWWW#
+#WOWWOW..WOWWOW#
+#WWLWWWM.WWWLWW#
+#WWWWWW..WWWWWW#
+#WOWWOW..WOWWOW#
+#WWWWWW.MWWWWWW#
+#WWLWWW..WWWLWW#
+#WOWWOW..WOWWOW#
+#WWWWWWM.WWWWWW#
+#WWWWWW..WWWWWW#
+#WOWWOW..WOWWOW#
+#WWLWWW.MWWWLWW#
+#######22#######
+
+[W]
+pool = 1.8
+water = 0.35
+tint = #2d7468          # dunkel cyan-grün
+color = #dceeed         # helle Kacheln
+waves = 1
+rim = 0.15, 0.3
+railing = on
+
+[O]
+block = 0.7, 6.8, 0.7   # vom Grund des Beckens bis an die Decke
+material = tiles
+color = #e2ecea
+in = W
+
+[L]
+light = #eaf6ff
+size = 1.4, 0.3         # eine Röhre über dem Wasser
+power = 1.8
+in = W
+
+[M]
+light = #eaf6ff
+size = 1.4, 0.3         # eine Röhre über dem Steg
+power = 1.4
+
+[2]
+door = kino 1
