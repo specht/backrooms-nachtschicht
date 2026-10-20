@@ -26,7 +26,7 @@ cornice = 0.25, #e8dcc0
 #.....C.....C...#
 #...............#
 #.B...........B.#
-#################
+#######222#######
 
 [C]
 model = nachtschicht/models/Chandelier_02/Chandelier_02_1k.gltf   # Poly Haven, CC0
@@ -54,3 +54,6 @@ model = nachtschicht/models/ornate_mirror_01/ornate_mirror_01_1k.gltf   # Poly H
 height = 2.2
 rotation = 270
 offset = 0.45, 0.9, 0   # an der Ostwand
+
+[2]
+door = abfahrt 1         # hinab ins Parkdeck

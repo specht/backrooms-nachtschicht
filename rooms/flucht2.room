@@ -1,8 +1,11 @@
-# Flucht 2 von 5: Räume hintereinander, Tür hinter Tür.
+# Flucht 2 von 5: breiter, und der Boden fällt wieder. Die Decke kippt jetzt
+# zur anderen Seite.
 
 [room]
 name = Flucht 2
-height = 3.2
+height = 2.6, 4.2
+slope = south
+ramp = west, 1.4
 wallpaper = #a9b6c2
 floor = carpet_tiles
 carpet = #424e5c
@@ -11,22 +14,23 @@ dado_material = wood
 cornice = 0.12, #ddd6c6
 
 [map]
-#######
-#.....#
-1.....2
-1..L..2
-#.....#
-#######
+################
+#..............#
+#..............#
+1..L....L......#
+1..............#
+#..............2
+#.....L....L...2
+#..............#
+################
 
 [L]
 light = #ffe9c4
-power = 1.0
-flicker = 0
+size = 1.2, 0.3
+power = 1.6
 
 [1]
 door = flucht1 2
-arch = 2.6
-casing = on
 
 [2]
 door = flucht3 1

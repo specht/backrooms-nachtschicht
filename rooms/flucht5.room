@@ -1,8 +1,11 @@
-# Flucht 5 von 5: Räume hintereinander, Tür hinter Tür.
+# Flucht 5 von 5: wieder hinab, unter einer Decke, die sich zur Seite neigt.
+# Dahinter brennt im Büro noch Licht.
 
 [room]
 name = Flucht 5
-height = 3.2
+height = 2.6, 3.4
+slope = north
+ramp = west, 0.6
 wallpaper = #4a4f55
 floor = carpet_tiles
 carpet = #202326
@@ -11,22 +14,21 @@ dado_material = wood
 cornice = 0.12, #ddd6c6
 
 [map]
-#######
-#.....#
-1.....2
-1..L..2
-#.....#
-#######
+##############
+#............#
+1............#
+1....L.....L.2
+#............2
+#............#
+##############
 
 [L]
 light = #ffe9c4
-power = 0.5
-flicker = 1
+size = 1.2, 0.3
+power = 1.0
 
 [1]
 door = flucht4 2
-arch = 2.6
-casing = on
 
 [2]
 door = nachtbuero 1

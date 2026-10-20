@@ -1,0 +1,44 @@
+# Hinter dem Ballsaal geht es hinab, eine Rampe aus Beton, breit genug für
+# Autos. Es kommt keins.
+
+[room]
+name = Abfahrt
+height = 3.2
+ramp = north, 3.5
+walls = concrete
+wallpaper = #8c8b86
+floor = concrete
+carpet = #6e6d69
+ceiling = #7c7b77
+baseboard = none
+
+[map]
+##111###
+#......#
+#......#
+#..L...#
+#......#
+#......#
+#......#
+#......#
+#...L..#
+#......#
+#......#
+#......#
+#......#
+#..L...#
+#......#
+#......#
+#......#
+#......#
+#....L.#
+#......#
+##222###
+
+[L]
+light = #dfe8ff
+size = 1.4, 0.3
+power = 1.1
+
+[2]
+door = parkdeck 1

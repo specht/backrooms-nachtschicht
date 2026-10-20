@@ -1,0 +1,41 @@
+# Ein Notausgang, sagt das Schild nicht, denn es gibt keins. Der Gang steigt,
+# und die Decke steigt schneller. Am Ende steht ein Stuhl.
+
+[room]
+name = Notgang
+height = 2.4, 8
+slope = east
+ramp = east, 2
+walls = plain
+wallpaper = #b9b4a4
+floor = concrete
+carpet = #6f6c64
+ceiling = #a8a395
+baseboard = 0.1, #5c5850
+
+[map]
+##############################
+1............................#
+1..L.......L.......F......KS.#
+##############################
+
+[L]
+light = #fff1d0
+size = 0.6, 0.3
+power = 0.9
+
+[F]
+light = #fff1d0
+size = 0.6, 0.3
+power = 0.9
+flicker = 1
+
+[K]
+light = #fff1d0
+size = 0.6, 0.3
+power = 1.2              # über dem Stuhl
+
+[S]
+model = models/SchoolChair_01/SchoolChair_01_1k.gltf   # Poly Haven, CC0
+height = 1.01
+rotation = 270

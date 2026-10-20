@@ -1,8 +1,10 @@
-# Flucht 4 von 5: Räume hintereinander, Tür hinter Tür.
+# Flucht 4 von 5: eng und steil hinauf, unter einer Decke, die zur Seite kippt.
 
 [room]
 name = Flucht 4
-height = 3.2
+height = 2.6, 4
+slope = north
+ramp = east, 1.5
 wallpaper = #6f8a86
 floor = carpet_tiles
 carpet = #2e3e3c
@@ -11,22 +13,19 @@ dado_material = wood
 cornice = 0.12, #ddd6c6
 
 [map]
-#######
-#.....#
-1.....2
-1..L..2
-#.....#
-#######
+##################
+1................#
+1..L.....L.....L.2
+#................2
+##################
 
 [L]
 light = #ffe9c4
-power = 0.7
-flicker = 0
+size = 1.2, 0.3
+power = 1.5
 
 [1]
 door = flucht3 2
-arch = 2.6
-casing = on
 
 [2]
 door = flucht5 1

@@ -1,8 +1,11 @@
-# Flucht 3 von 5: Räume hintereinander, Tür hinter Tür.
+# Flucht 3 von 5: Der Gang wird zur Halle. Ihr Boden hängt zur Seite, ihre
+# Decke fällt von sieben Metern auf drei. Nichts darin ist waagerecht.
 
 [room]
 name = Flucht 3
-height = 3.2
+height = 3, 7
+slope = west
+ramp = north, 2.5
 wallpaper = #a59bb0
 floor = carpet_tiles
 carpet = #4a4256
@@ -11,22 +14,25 @@ dado_material = wood
 cornice = 0.12, #ddd6c6
 
 [map]
-#######
-#.....#
-1.....2
-1..L..2
-#.....#
-#######
+########################
+#......................#
+#..L.......L.......L...2
+#......................2
+#......................#
+#......................#
+1......................#
+1..L.......L.......L...#
+#......................#
+#......................#
+########################
 
 [L]
 light = #ffe9c4
-power = 0.9
-flicker = 1
+size = 1.4, 0.3
+power = 2.4
 
 [1]
 door = flucht2 2
-arch = 2.6
-casing = on
 
 [2]
 door = flucht4 1

@@ -1,8 +1,10 @@
 # Nachtschicht
 
 A level for [backrooms-starter](https://github.com/specht/backrooms-starter):
-a building at night, every room in a different mood, from the waiting room
-to the ballroom.
+a building at night, every room in a different mood: from the waiting room
+through a crooked corridor where no floor and no ceiling is level, past a
+lecture hall, a cinema, a pool and a ballroom, down into a parking deck
+under the building, and into a corridor that leads nowhere.
 
 ## Walking through it
 
@@ -15,7 +17,7 @@ git clone https://github.com/specht/backrooms-nachtschicht nachtschicht
 
 Serve the starter (in the Workspace: Go Live) and open the page with
 `?level=nachtschicht`. The first time, your browser bakes the light itself:
-with 14 rooms and 149 models that takes several minutes on a PC, and the tab
+with 17 rooms and 150 models that takes about a quarter of an hour on a PC with a graphics card from a few years ago (a GTX 1060), and the tab
 has to stay open while it does. After that the light is kept in that browser,
 and the level starts at once as long as nothing in it changes. A phone or a
 tablet may not manage to bake it at all.

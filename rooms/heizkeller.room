@@ -48,7 +48,6 @@ height = 0.75
 offset = 0, 2.65, 0
 light = #ff6a3a
 power = 2.4
-flicker = 1
 
 [F]
 light = #ff4a2a          # das Feuer im Kessel, durch die Klappe
