@@ -34,6 +34,7 @@ height = 0.76
 [A]
 model = nachtschicht/models/desk_lamp_arm_01/desk_lamp_arm_01_1k.gltf   # Poly Haven, CC0
 height = 0.55
+rotation = 180           # der Kopf über den Schreibtisch (das Modell schaut nach -z, Norden)
 offset = 0, 0.76, 0.6    # hinten auf dem Schreibtisch
 light = #ffd39a
 power = 1.2

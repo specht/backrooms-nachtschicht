@@ -14,7 +14,7 @@ baseboard = none
 [map]
 ######11#######
 #QKQQ.........#
-#QJQQTT.......#
+#QQQQTT.......#
 #.............#
 #..S....S.....#
 #A...........A#
@@ -45,12 +45,6 @@ height = 0.75
 offset = 0, 2.0, 0       # hängt über dem Vorführraum
 light = #ffb98a          # schwach und warm
 power = 1.0
-on = Q
-
-[J]
-model = nachtschicht/models/filmstrip_projector_8mm/filmstrip_projector_8mm_1k.gltf   # Poly Haven, CC0
-height = 0.35
-rotation = 160
 on = Q
 
 [S]

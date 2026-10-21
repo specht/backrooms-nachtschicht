@@ -16,8 +16,8 @@ baseboard = 0.1, #5c5850
 
 [map]
 ##############################
-1............................#
-1..L.......L.......F.......SK#
+1......N.............N....N..#
+1..L.......L...Z...F....Z..SK#
 ##############################
 
 [L]
@@ -30,6 +30,24 @@ light = #fff1d0
 size = 0.6, 0.3
 power = 0.9
 flicker = 1
+
+[N]
+model = models/industrial_wall_sconce/industrial_wall_sconce_1k.gltf   # Poly Haven, CC0
+height = 0.4
+rotation = 0
+offset = 0, 1.7, -0.35  # an der Nordwand: Nach hinten wird die Decke hoch, die Leuchten oben weit
+light = #ffe2b8
+power = 0.5
+beam = 75
+
+[Z]
+model = models/industrial_wall_sconce/industrial_wall_sconce_1k.gltf   # Poly Haven, CC0
+height = 0.4
+rotation = 180
+offset = 0, 1.7, 0.35   # an der Südwand
+light = #ffe2b8
+power = 0.5
+beam = 75
 
 [K]
 model = models/industrial_wall_sconce/industrial_wall_sconce_1k.gltf   # Poly Haven, CC0

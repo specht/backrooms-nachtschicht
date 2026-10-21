@@ -37,7 +37,6 @@ All from [Poly Haven](https://polyhaven.com/models), CC0, glTF at 1K:
 [Caged Hanging Light](https://polyhaven.com/a/caged_hanging_light),
 [Classic Laptop](https://polyhaven.com/a/classic_laptop),
 [Desk Lamp Arm 01](https://polyhaven.com/a/desk_lamp_arm_01),
-[Filmstrip Projector 8mm](https://polyhaven.com/a/filmstrip_projector_8mm),
 [Horse Statue 01](https://polyhaven.com/a/horse_statue_01),
 [Marble Bust 01](https://polyhaven.com/a/marble_bust_01),
 [Metal Tool Chest](https://polyhaven.com/a/metal_tool_chest),
