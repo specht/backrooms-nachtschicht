@@ -13,8 +13,8 @@ baseboard = none
 
 [map]
 ######11#######
-#QQQQ.........#
-#QJQQ.........#
+#QKQQ.........#
+#QJQQTT.......#
 #.............#
 #..S....S.....#
 #A...........A#
@@ -30,8 +30,22 @@ baseboard = none
 [Q]
 raise = 1.2             # hinten: der Vorführraum ohne Wände
 material = wood
-color = #2b1c16
+color = #5a3e2c
 railing = on
+
+[T]
+stairs = west, 1.2      # von der Seite hinauf in den Vorführraum
+material = wood
+color = #5a3e2c
+railing = on
+
+[K]
+model = nachtschicht/models/caged_hanging_light/caged_hanging_light_1k.gltf   # Poly Haven, CC0
+height = 0.75
+offset = 0, 2.0, 0       # hängt über dem Vorführraum
+light = #ffb98a          # schwach und warm
+power = 1.0
+on = Q
 
 [J]
 model = nachtschicht/models/filmstrip_projector_8mm/filmstrip_projector_8mm_1k.gltf   # Poly Haven, CC0

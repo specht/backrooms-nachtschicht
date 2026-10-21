@@ -1,5 +1,6 @@
 # Ein Notausgang, sagt das Schild nicht, denn es gibt keins. Der Gang steigt,
-# und die Decke steigt schneller. Am Ende steht ein Stuhl.
+# und die Decke steigt schneller. Am Ende steht ein Schaukelstuhl, daneben brennt
+# eine Leselampe.
 
 [room]
 name = Notgang
@@ -16,7 +17,7 @@ baseboard = 0.1, #5c5850
 [map]
 ##############################
 1............................#
-1..L.......L.......F......KS.#
+1..L.......L.......F.......SK#
 ##############################
 
 [L]
@@ -31,11 +32,15 @@ power = 0.9
 flicker = 1
 
 [K]
-light = #fff1d0
-size = 0.6, 0.3
-power = 1.2              # über dem Stuhl
+model = models/industrial_wall_sconce/industrial_wall_sconce_1k.gltf   # Poly Haven, CC0
+height = 0.4
+rotation = 180
+offset = 0, 1.5, 0.35   # an der Südwand neben dem Schaukelstuhl, zum Lesen
+light = #ffc07a
+power = 0.3
+beam = 75               # unter dem Schirm: nach unten
 
 [S]
-model = models/SchoolChair_01/SchoolChair_01_1k.gltf   # Poly Haven, CC0
-height = 1.01
-rotation = 270
+model = models/Rockingchair_01/Rockingchair_01_1k.gltf   # Poly Haven, CC0
+height = 1.0
+rotation = 270          # mit Blick den Gang hinunter
